@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0 auto;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin: 0;
+            color: #7d5e3e;
+        }
+        .container{
+        padding: 0 100px;
+        }
+       .logo{
+        margin: 0;
+           padding: 60px 0;
+        }
+       .information_list{
+        color:  #7D5E3E;
+       display: flex;
+        justify-content: space-between;
+           padding-bottom: 111px;
+       }
+        .information_list_item{
+            border-bottom: 1px solid #7D5E3E;
+            max-width: 250px;
+        }
+       .top_title{
+           font-weight: 400;
+           font-size: 32px;
+           line-height: 130%;
+           text-transform: uppercase;
+           padding-bottom: 20px;
+           font-family: 'Poiret One', Arial, sans-serif;
+       }
+       .title_item{
+           font-weight: 300;
+           font-size: 25px;
+           line-height: 130%;
+           text-transform: uppercase;
+           padding-bottom: 30px;
+           font-family: 'Raleway', Arial, sans-serif;
+       }
+       .title_text_level{
+           font-weight: 400;
+           font-size: 24px;
+           line-height: 92%;
+           padding-top: 30px;
+           padding-bottom: 25px;
+           text-transform: uppercase;
+           font-family: 'Raleway', Arial, sans-serif;
+       }
+       .information_text{
+           font-weight: 300;
+           font-size: 14px;
+           line-height: 157%;
+           padding-bottom: 25px;
+           font-family: 'Raleway', Arial, sans-serif;
+       }
+       .maps{
+         display: block;
+           margin: 0 auto;
+       }
+       .contact{
+        display: flex;
+           justify-content: space-between;
+           padding-bottom: 70px;
+       }
+        .contact p{
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 130%;
+            padding-top: 192px;
+            font-family: 'Poiret One', Arial, sans-serif;
+        }
+        .compass{
+            display: flex;
+            flex-direction: column;
+            gap:72px;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <img src="images/logo.svg" class="logo" alt="Логотип">
+    <div class="information_list">
+        <div>
+            <div class="information_list_item">
+                <h1 class="top_title">Квартира №1</h1>
+                <h2 class="title_item">35 630 000 ₽</h2>
+            </div>
+            <div class="information_list_item">
+                <h3 class="title_text_level">Этаж 1</h3>
+                <div class="information_text">
+                    <p class="text">Комнат 2</p>
+                    <p class="text">Площадь 108,3 кв. м</p>
+                </div>
+            </div>
+        </div>
+        <div class="logo_title">
+            <h1 class="top_title">House falconnier</h1>
+        </div>
+    </div>
+    <img src="images/maps.jpg" class="maps" alt="Схема квартиры">
+    <div class="contact">
+        <p>Офис продаж:<br>Тверская, 13<br></br>+7 495 123 45 67</p>
+        <div class="compass">
+            <img src="images/compass1.png">
+            <img src="images/compass2.png">
+        </div>
+    </div>
+</body>
+
+</html>
